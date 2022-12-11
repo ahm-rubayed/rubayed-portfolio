@@ -1,0 +1,19 @@
+form input,
+form textarea{
+  margin: .5rem auto;
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+form textarea{
+  height: 25vh;
+}
+
+form input[type="submit"] {
+  background-image: linear-gradient(to right, #7f8be3, #64BBFC);
+
+}
