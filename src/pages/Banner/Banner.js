@@ -42,7 +42,7 @@ const Banner = () => {
         <div className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-12 lg:mt-0">
           <div className="avatar">
             <div className="w-full rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
-              <img src='https://ibb.co/99K7DB0' alt="myPhoto" />
+              <img src={person} alt="myPhoto" />
             </div>
           </div>
         </div>
