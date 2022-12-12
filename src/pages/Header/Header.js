@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css"
 import logo from "../../assets/logo.png"
 
 const Header = () => {
+  const [navbar, setNavbar] = useState(false)
+
+  const changeBg = () => {
+    console.log(window.scrollY)
+    if(window.scrollY >= 80) {
+      setNavbar(true)
+    }
+    else {
+      setNavbar(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeBg)
+
   const menuItems = (
     <>
       <li>
@@ -22,9 +36,10 @@ const Header = () => {
       </li>
     </>
   );
+
   return (
     <div>
-      <div className="navbar bg-base-100 fixed z-10">
+      <nav className={navbar ? 'navbar active fixed z-10' : 'navbar fixed z-10'}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,7 +69,7 @@ const Header = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
-      </div>
+      </nav>
     </div>
   );
 };

@@ -20,3 +20,10 @@ li a:hover::after {
   transform: scale(1);
   color: #64bbfc;
 }
+
+.navbar.active {
+  box-shadow: 0 0 13px 3px hsl(0deg 0% 62% / 41%);
+  background-color: hsla(0,0%,100%,.53);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
