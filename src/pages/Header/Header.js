@@ -6,7 +6,6 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false)
 
   const changeBg = () => {
-    console.log(window.scrollY)
     if(window.scrollY >= 80) {
       setNavbar(true)
     }
@@ -20,7 +19,7 @@ const Header = () => {
   const menuItems = (
     <>
       <li>
-        <a href="/">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
         <a href="#about">About</a>
@@ -62,7 +61,7 @@ const Header = () => {
               {menuItems}
             </ul>
           </div>
-          <a className="" href="/">
+          <a className="" href="#home">
             <img src={logo} className="w-12" alt="" />
           </a>
         </div>
