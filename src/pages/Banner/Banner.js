@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="hero-content max-w-full flex-col lg:flex-row justify-center">
         <div className="text-center lg:text-left">
           <h5 className="text-xl uppercase font-serif">Hi! I'm</h5>
-          <h1 className="my-6 text-5xl font-semibold text-secondary">
+          <h1 className="my-6 text-2xl md:text-5xl font-semibold text-secondary">
             {" "}
             <Typewriter
               onInit={(typewriter) => {
@@ -25,7 +25,7 @@ const Banner = () => {
               }}
             />
           </h1>
-          <p class="text-gray-500 max-w-2xl mx-auto lg:mr-12">
+          <p class="text-gray-500 max-w-2xl mx-auto lg:mr-12 text-md md:text-lg">
             This planet is wider and more widespread than I am, but I only have
             one expertise to offer. Most of my life has been spent working as a
             web developer. I am the developer of your dream, who will enhance
@@ -39,7 +39,7 @@ const Banner = () => {
             Resume
           </a>
         </div>
-        <div className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-12 lg:mt-0">
+        <div className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-6 lg:mt-0">
           <div className="avatar">
             <div className="w-full rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
               <img src={person} alt="myPhoto" />

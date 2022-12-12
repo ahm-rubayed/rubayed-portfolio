@@ -6,14 +6,12 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <section id="projects" className="my-16">
-      <div className="px-20">
-        <h3 className="text-3xl text-center capitalize font-semibold my-16">Latest featured projects</h3>
-        <div className="container mx-auto my-16">
+    <section id="projects" className="my-16 px-6 lg:px-12">
+      <div>
+        <h3 className="text-xl md:text-3xl text-center capitalize font-semibold my-12 md:my-16">Latest featured projects</h3>
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
-            <a
-              className="col cursor-pointer"
-              href="https://assignment-10-21db1.web.app/"
+            <a className="col cursor-pointer" href="https://assignment-10-21db1.web.app/"
               target="_blank" rel="noreferrer">
               <img src={project1} alt="project1" className="rounded-lg" />
               <div class="desc">

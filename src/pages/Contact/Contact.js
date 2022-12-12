@@ -28,47 +28,45 @@ const Contact = () => {
       );
   };
   return (
-    <section id="contact" className="my-16">
-      <div className="px-16 lg:px-40">
-        <div className="text-3xl text-center capitalize font-semibold my-16">
-          Contact me
-        </div>
-        <div className="container mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
-            <div>
-              <div class="flex items-center">
-                <span className="text-lg mr-8 text-primary">
-                  <FaEnvelope />
-                </span>
-                <p className="text-lg">rubayed.ahmed02@gmail.com</p>
-              </div>
-              <div class="flex my-8">
-                <span className="text-lg mr-8 text-primary">
-                  <FaLocationArrow />
-                </span>
-                <p className="text-lg">Sylhet, Bangladesh</p>
-              </div>
-              <div class="flex">
-                <span className="text-lg mr-8 text-primary">
-                  <FaPhoneAlt />
-                </span>
-                <p className="text-lg">01867446930</p>
-              </div>
+    <section id="contact" className="my-16 px-6 lg:px-40">
+      <h3 className="text-xl md:text-3xl text-center capitalize font-semibold my-16">
+        Contact me
+      </h3>
+      <div className="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div>
+            <div class="flex items-center">
+              <span className="text-lg mr-2 md:mr-8 text-primary">
+                <FaEnvelope />
+              </span>
+              <p className="text-lg">rubayed.ahmed02@gmail.com</p>
             </div>
+            <div class="flex my-8 items-center">
+              <span className="text-lg mr-2 md:mr-8 text-primary">
+                <FaLocationArrow />
+              </span>
+              <p className="text-lg">Sylhet, Bangladesh</p>
+            </div>
+            <div class="flex items-center">
+              <span className="text-lg mr-2 md:mr-8 text-primary">
+                <FaPhoneAlt />
+              </span>
+              <p className="text-lg">01867446930</p>
+            </div>
+          </div>
 
-            <div className="mt-16 lg:mt-0">
-              <div class="container">
-                <form ref={form} onSubmit={sendEmail}>
-                  <input type="text" name="user_name" placeholder="Name" />
-                  <input type="email" name="user_email" placeholder="Email" />
-                  <textarea name="message" placeholder="Message"></textarea>
-                  <input
-                    type="submit"
-                    class="btn text-white"
-                    value="Send Message"
-                  />
-                </form>
-              </div>
+          <div className="mt-16 lg:mt-0">
+            <div class="">
+              <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name="user_name" placeholder="Name" />
+                <input type="email" name="user_email" placeholder="Email" />
+                <textarea name="message" placeholder="Message"></textarea>
+                <input
+                  type="submit"
+                  class="btn text-white"
+                  value="Send Message"
+                />
+              </form>
             </div>
           </div>
         </div>
