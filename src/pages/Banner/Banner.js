@@ -3,18 +3,24 @@ import person from "../../assets/personal.JPG";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-
+import ParticlesConfig from "../../config/ParticlesConfig";
 
 const Banner = () => {
   return (
-    <section id="home" className="hero min-h-screen pt-16 lg:pt-12">
+    <section
+      id="home"
+      className="hero min-h-screen pt-16 lg:pt-12">
+      <div className="h-screen w-screen">
+        <ParticlesConfig />
+      </div>
       <div className="container">
         <div className="hero-content max-w-full flex-col lg:flex-row justify-center">
           <div
             data-aos="fade-up"
             data-aos-easing="ease-in-cubic"
-            data-aos-duration="1300"
-            className="text-center lg:text-left">
+            data-aos-duration="1000"
+            className="text-center lg:text-left"
+          >
             <h5 className="text-xl uppercase font-serif">Hi! I'm</h5>
             <h1 className="my-6 text-2xl md:text-5xl font-semibold text-secondary">
               {" "}
@@ -42,12 +48,17 @@ const Banner = () => {
               href="resume.pdf"
               download="resume.pdf"
               className="btn text-white border-0 font-semibold linear-bg mt-6">
-              <span className="text-xl mr-2"><FaCloudDownloadAlt/></span> Resume
+              <span className="text-xl mr-2">
+                <FaCloudDownloadAlt />
+              </span>{" "}
+              Resume
             </a>
           </div>
-          <div  data-aos="fade-up"
+          <div
+            data-aos="fade-up"
             data-aos-easing="ease-in-cubic"
-            data-aos-duration="1300" className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-6 lg:mt-0">
+            data-aos-duration="1000"
+            className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-6 lg:mt-0">
             <div className="avatar">
               <div className="w-full rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
                 <img src={person} alt="myPhoto" />

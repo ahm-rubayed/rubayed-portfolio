@@ -1,8 +1,7 @@
 li a:hover {
-    background-color: #fff;
+    background-color: inherit;
 }
 
-li:nth-child(1) a::after,
 li a::after {
   content: "";
   position: absolute;
@@ -26,4 +25,8 @@ li a:hover::after {
   background-color: hsla(0,0%,100%,.53);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+}
+
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus), .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+  background-color: none !important; 
 }

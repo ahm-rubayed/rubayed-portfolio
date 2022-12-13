@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css"
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo3.png"
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false)
@@ -38,7 +38,7 @@ const Header = () => {
 
   return (
     <div>
-      <nav className={navbar ? 'navbar active fixed z-10' : 'navbar fixed z-10'}>
+      <nav className={navbar ? 'navbar active fixed top-0 z-10 h-6 w-screen' : 'navbar fixed top-0 z-10 h-6 w-screen'}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -57,12 +57,12 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              className="menu menu-compact dropdown-content bg-base-200 mt-3 p-2 shadow rounded-box w-52">
               {menuItems}
             </ul>
           </div>
           <a className="" href="#home">
-            <img src={logo} className="w-12" alt="" />
+            <img src={logo} className="w-72" alt="" />
           </a>
         </div>
         <div className="navbar-end hidden lg:flex">

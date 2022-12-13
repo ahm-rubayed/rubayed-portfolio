@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const Blogs = () => {
   return (
@@ -7,7 +8,21 @@ const Blogs = () => {
         Blogs
       </h3>
       <div className="mt-12 text-center">
-        <h3 className="text-xl md:text-2xl text-secondary uppercase font-bold">Comming Soon</h3>
+        {/* <h3 className="text-xl md:text-2xl text-secondary uppercase font-bold">Coming Soon</h3> */}
+        <h3 className="text-xl md:text-2xl text-secondary uppercase font-bold">
+        <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+
+                    .typeString("Coming Soon")
+
+                    .pauseFor(300)
+                    .deleteAll()
+                    .typeString("Coming Soon")
+                    .start();
+                }}
+              />
+        </h3>
       </div>
     </section>
   );
