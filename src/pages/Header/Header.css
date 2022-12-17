@@ -1,5 +1,5 @@
 li a:hover {
-    background-color: inherit;
+  background-color: inherit;
 }
 
 li a::after {
@@ -21,12 +21,14 @@ li a:hover::after {
 }
 
 .navbar.active {
+  transition: .2s ease-in-out;
   box-shadow: 0 0 13px 3px hsl(0deg 0% 62% / 41%);
-  background-color: hsla(0,0%,100%,.53);
+  background-image: linear-gradient(to right, rgba(127, 139, 227, .3), rgba(100, 187, 252, .3));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
-.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus), .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
-  background-color: none !important; 
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus),
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+  background-color: none !important;
 }

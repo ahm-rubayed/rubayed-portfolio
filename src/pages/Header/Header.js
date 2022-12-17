@@ -6,7 +6,7 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false)
 
   const changeBg = () => {
-    if(window.scrollY >= 80) {
+    if(window.scrollY >= 20) {
       setNavbar(true)
     }
     else {
@@ -62,7 +62,7 @@ const Header = () => {
             </ul>
           </div>
           <a className="" href="#home">
-            <img src={logo} className="w-72" alt="" />
+            <img src={logo} className="max-w-[14rem]" alt="" />
           </a>
         </div>
         <div className="navbar-end hidden lg:flex">

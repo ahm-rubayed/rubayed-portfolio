@@ -19,7 +19,7 @@ const ParticlesConfig = () => {
     return (
         <div>
             <Particles 
-             id="tsparticles" className="h-screen"
+             id="tsparticles" className="h-screen w-screen"
              init={particlesInit}
              loaded={particlesLoaded}
              options={{
@@ -40,7 +40,7 @@ const ParticlesConfig = () => {
                     color: {
                       value: "#fff"
                     },
-                    opacity: 1
+                    opacity: 0
                   },
                   enable: false
                 },

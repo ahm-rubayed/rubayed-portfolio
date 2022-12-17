@@ -7,18 +7,16 @@ import ParticlesConfig from "../../config/ParticlesConfig";
 
 const Banner = () => {
   return (
-    <section
-      id="home"
-      className="hero min-h-screen pt-16 lg:pt-12">
-      <div className="h-screen w-screen">
-        <ParticlesConfig />
+    <section id="home" className="hero min-h-screen pt-16 lg:pt-12 overflow-hidden">
+      <div className="h-screen w-screen overflow-x-hidden">
+      <ParticlesConfig />
       </div>
       <div className="container">
         <div className="hero-content max-w-full flex-col lg:flex-row justify-center">
           <div
             data-aos="fade-up"
             data-aos-easing="ease-in-cubic"
-            data-aos-duration="1000"
+            data-aos-duration="400"
             className="text-center lg:text-left"
           >
             <h5 className="text-xl uppercase font-serif">Hi! I'm</h5>
@@ -47,10 +45,11 @@ const Banner = () => {
             <a
               href="resume.pdf"
               download="resume.pdf"
-              className="btn text-white border-0 font-semibold linear-bg mt-6">
+              className="btn text-white border-0 font-semibold linear-bg mt-6"
+            >
               <span className="text-xl mr-2">
                 <FaCloudDownloadAlt />
-              </span>{" "}
+              </span>
               Resume
             </a>
           </div>
@@ -58,7 +57,8 @@ const Banner = () => {
             data-aos="fade-up"
             data-aos-easing="ease-in-cubic"
             data-aos-duration="1000"
-            className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-6 lg:mt-0">
+            className="flex-shrink-0 w-full max-w-xl justify-self-end  mt-6 lg:mt-0"
+          >
             <div className="avatar">
               <div className="w-full rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
                 <img src={person} alt="myPhoto" />
