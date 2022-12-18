@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section id="home" className="hero min-h-screen pt-16 lg:pt-12 overflow-hidden">
       <div className="h-screen w-screen overflow-x-hidden">
-      <ParticlesConfig />
+      {/* <ParticlesConfig /> */}
       </div>
       <div className="container">
         <div className="hero-content max-w-full flex-col lg:flex-row justify-center">
