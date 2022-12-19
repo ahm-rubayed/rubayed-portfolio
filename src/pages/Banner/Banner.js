@@ -3,14 +3,10 @@ import person from "../../assets/personal.JPG";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-// import ParticlesConfig from "../../config/ParticlesConfig";
 
 const Banner = () => {
   return (
-    <section id="home" className="hero min-h-screen pt-16 lg:pt-12 overflow-x-hidden">
-      <div className="h-screen">
-      {/* <ParticlesConfig /> */}
-      </div>
+    <section id="home" className="hero min-h-screen pt-16 lg:pt-12">
       <div className="container">
         <div className="hero-content max-w-full flex-col lg:flex-row justify-center">
           <div
