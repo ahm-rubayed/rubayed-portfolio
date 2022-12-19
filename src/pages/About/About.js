@@ -27,7 +27,7 @@ const About = () => {
             <h3 className="text-xl md:text-3xl capitalize font-semibold">
               About me
             </h3>
-            <h3 className="text-lg lg:text-xl font-serif my-6">WHO AM I?</h3>
+            <h3 className="text-lg lg:text-xl font-serif my-6 uppercase">Why You hire me?</h3>
             <p className="text-dark">
               <span className="font-bold">Hi I'm Rubayed Ahmed.</span> A
               passionate web developer from Bangladesh. I worked various
