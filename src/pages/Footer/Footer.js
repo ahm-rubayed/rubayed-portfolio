@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react
 
 const Footer = () => {
     return (
-          <div className="linear-bg">
+          <div className="bg-black text-white">
             <div className='container mx-auto py-6 flex flex-col items-center'>
             <p className='uppercase text-xl '>Find with me</p>
             <ul className="flex gap-3 mt-4">
