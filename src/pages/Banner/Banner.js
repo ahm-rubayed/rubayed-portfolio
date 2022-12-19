@@ -3,12 +3,12 @@ import person from "../../assets/personal.JPG";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import ParticlesConfig from "../../config/ParticlesConfig";
+// import ParticlesConfig from "../../config/ParticlesConfig";
 
 const Banner = () => {
   return (
-    <section id="home" className="hero min-h-screen pt-16 lg:pt-12 overflow-hidden">
-      <div className="h-screen w-screen overflow-x-hidden">
+    <section id="home" className="hero min-h-screen pt-16 lg:pt-12 overflow-x-hidden">
+      <div className="h-screen">
       {/* <ParticlesConfig /> */}
       </div>
       <div className="container">
@@ -45,7 +45,7 @@ const Banner = () => {
             <a
               href="resume.pdf"
               download="resume.pdf"
-              className="btn text-white border-0 font-semibold linear-bg mt-6"
+              className="btn text-white border-0 font-semibold linear-btnk mt-6"
             >
               <span className="text-xl mr-2">
                 <FaCloudDownloadAlt />
