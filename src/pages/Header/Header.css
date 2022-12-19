@@ -17,7 +17,6 @@ li a::after {
 li a:hover,
 li a:hover::after {
   transform: scale(1);
-  color: #64bbfc;
 }
 
 .navbar.active {

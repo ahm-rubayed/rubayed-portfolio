@@ -41,7 +41,7 @@ const Banner = () => {
             <a
               href="resume.pdf"
               download="resume.pdf"
-              className="btn text-white border-0 font-semibold linear-btnk mt-6"
+              className="btn text-white border-0 font-semibold linear-btn mt-6"
             >
               <span className="text-xl mr-2">
                 <FaCloudDownloadAlt />
