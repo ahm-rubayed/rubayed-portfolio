@@ -1,10 +1,37 @@
 
 [
     {
-      "project_id": "01",
-      "title": "Courseella",
-      "img": "img1",
-      "description": ""
+      "project_name": "courseella",
+      "img": "https://i.ibb.co/wNkdq05/project1.png",
+      "technologies": [
+        "javascript",
+        "react",
+        "Html",
+        "Css",
+        "Nodejs"
+      ]
+    },
+    {
+      "project_name": "Doctors Portal",
+      "img": "https://i.ibb.co/VgbQ9GB/doctors.png",
+      "technologies": [
+        "javascript",
+        "Html",
+        "react",
+        "Nodejs",
+        "Css"
+      ]
+    },
+    {
+      "project_name": "ProShoot",
+      "img": "https://i.ibb.co/LJQm5N1/proshoot.png",
+      "technologies": [
+        "Html",
+        "Css",
+        "react",
+        "javascript",
+        "Nodejs"
+      ]
     }
   ]
   

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -12,8 +12,8 @@ const Footer = () => {
                 <li className='text-2xl'><a href="https://www.linkedin.com/in/rubayed/" target="_blank" rel="noreferrer"><FaLinkedin/></a></li>
                 <li className='text-2xl'><a href="https://github.com/ahm-rubayed" target="_blank" rel="noreferrer"><FaGithub/></a></li>
             </ul>
+            <p>© &copy Copyright | Rubayed Ahmed</p>
             </div>
-          
           </div>
     );
 };

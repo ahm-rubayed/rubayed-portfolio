@@ -37,7 +37,7 @@ const About = () => {
               nodejs etc. Most of the time i would like to desing fancy
               websites. I prefer to keep learning, and try to upgrade my skills.
             </p>
-            <div className="grid grid-cols-3 gap-6 mt-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
             <div className="border p-6 rounded-lg linear-bg text-center">
               <ScrollTrigger onEnter={() => setCountOn(true)} onExit={() => setCountOn(false)}>
                 <div>
