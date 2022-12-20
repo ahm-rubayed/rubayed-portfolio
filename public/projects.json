@@ -3,23 +3,59 @@
     {
       "project_name": "courseella",
       "img": "https://i.ibb.co/wNkdq05/project1.png",
-      "technologies": [
+      "technology": [
         "javascript",
         "react",
         "Html",
         "Css",
         "Nodejs"
+      ],
+      "details": [{
+        "title": "dream dream dreams drmaewlradsjkflds",
+        "features": [
+          "crud",
+          "CRUD",
+          "CRUD",
+          "CRUD",
+          "CRUD"
+        ],
+        "technologies": [
+          "react",
+          "react",
+          "react",
+          "react",
+          "react"
+        ]
+      }
       ]
     },
     {
       "project_name": "Doctors Portal",
       "img": "https://i.ibb.co/VgbQ9GB/doctors.png",
-      "technologies": [
+      "technology": [
         "javascript",
         "Html",
         "react",
         "Nodejs",
         "Css"
+      ],
+      "details": [{
+        "title": "dream dream dreams drmaewlradsjkflds",
+        "features": [
+          "crud",
+          "CRUD",
+          "CRUD",
+          "CRUD",
+          "CRUD"
+        ],
+        "technologies": [
+          "react",
+          "react",
+          "react",
+          "react",
+          "react"
+        ]
+      }
       ]
     },
     {
@@ -31,6 +67,24 @@
         "react",
         "javascript",
         "Nodejs"
+      ],
+      "details": [{
+        "title": "dream dream dreams drmaewlradsjkflds",
+        "features": [
+          "crud",
+          "CRUD",
+          "CRUD",
+          "CRUD",
+          "CRUD"
+        ],
+        "technologies": [
+          "react",
+          "react",
+          "react",
+          "react",
+          "react"
+        ]
+      }
       ]
     }
   ]

@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from "react";
-import project1 from "../../assets/project1.PNG";
-import project2 from "../../assets/doctors.png";
-import project3 from "../../assets/proshoot.png";
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
 
@@ -9,7 +6,7 @@ const Projects = () => {
   const [projects, SetProjects] = useState()
 
   useEffect(() => {
-    fetch('projects.json')
+    fetch('http://localhost:5000/projects')
     .then(res => res.json())
     .then(data => SetProjects(data))
   },[])

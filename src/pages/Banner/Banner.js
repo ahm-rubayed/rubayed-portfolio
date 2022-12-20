@@ -6,8 +6,8 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <section id="home" className="hero min-h-screen pt-16 lg:pt-12">
-        <div className="hero-content max-w-full flex-col lg:flex-row justify-center">
+    <section id="home" className="hero min-h-screen pt-16 lg:pt-12 overflow-hidden">
+        <div className="hero-content flex-col lg:flex-row justify-center">
           <div
             data-aos="fade-up"
             data-aos-easing="ease-in-cubic"

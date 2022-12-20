@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .linear-btn {
     background-image: linear-gradient(to right, #7f8be3, #64BBFC);
 }
