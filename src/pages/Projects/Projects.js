@@ -18,7 +18,7 @@ const Projects = () => {
           Latest featured projects
         </h3>
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-items-center">
 
             {
               projects?.map(project => <ProjectCard key={project._id} project={project} ></ProjectCard>)

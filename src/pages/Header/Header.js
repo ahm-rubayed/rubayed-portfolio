@@ -19,19 +19,19 @@ const Header = () => {
   const menuItems = (
     <>
       <li>
-        <a href="#home">Home</a>
+        <a href="/#home">Home</a>
       </li>
       <li>
-        <a href="#about">About</a>
+        <a href="/#about">About</a>
       </li>
       <li>
-        <a href="#projects">Projects</a>
+        <a href="/#projects">Projects</a>
       </li>
       <li>
-        <a href="#blogs">Blogs</a>
+        <a href="/#blogs">Blogs</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a href="/#contact">Contact</a>
       </li>
     </>
   );
@@ -61,7 +61,7 @@ const Header = () => {
               {menuItems}
             </ul>
           </div>
-          <a className="" href="#home">
+          <a href="/#home">
             <img src={logo} className="max-w-[14rem]" alt="" />
           </a>
         </div>

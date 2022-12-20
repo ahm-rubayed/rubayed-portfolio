@@ -3,6 +3,7 @@
     {
       "project_name": "courseella",
       "img": "https://i.ibb.co/wNkdq05/project1.png",
+      "live": "https://assignment-10-21db1.web.app",
       "technology": [
         "javascript",
         "react",
@@ -32,6 +33,7 @@
     {
       "project_name": "Doctors Portal",
       "img": "https://i.ibb.co/VgbQ9GB/doctors.png",
+      "live": "https://doctors-portal-6abcb.web.app",
       "technology": [
         "javascript",
         "Html",
@@ -48,7 +50,7 @@
           "CRUD",
           "CRUD"
         ],
-        "technologies": [
+        "technology": [
           "react",
           "react",
           "react",
@@ -61,7 +63,8 @@
     {
       "project_name": "ProShoot",
       "img": "https://i.ibb.co/LJQm5N1/proshoot.png",
-      "technologies": [
+      "live": "https://proshoot-assignment-11.web.app",
+      "technology": [
         "Html",
         "Css",
         "react",
