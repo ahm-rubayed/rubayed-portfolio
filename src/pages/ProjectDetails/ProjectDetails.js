@@ -12,7 +12,7 @@ const ProjectDetails = () => {
     <div>
       <Header />
       <div className="container my-32 px-16">
-        <h3 className="text-3xl">{title}</h3>
+        <h3 className="text-xl">{title}</h3>
         <p className="mt-12">
           <h3 className="text-2xl">Application Features</h3>
           <hr className="my-6"/>
@@ -25,7 +25,7 @@ const ProjectDetails = () => {
           <h3 className="text-2xl">Technology Used</h3>
           <hr className="my-6"/>
           {technologies?.map((tech) => (
-            <li className="ml-6">{tech}</li>
+            <li className="ml-6 capitalize">{tech}</li>
           ))}
         </p>
       </div>

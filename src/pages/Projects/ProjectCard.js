@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
-  const { _id, img, project_name, technology } = project;
-  console.log(technology)
+  const { _id, img, project_name, technology, live } = project;
+  console.log(project)
 
   return (
     <div>
@@ -21,8 +21,8 @@ const ProjectCard = ({ project }) => {
               rounded-full capitalize">
               Details
             </Link>
-            <a href="/" className="linear-btn text-white mt-6 px-6 py-2 
-              rounded-full capitalize">Visit</a>
+            <a href={live} className="linear-btn text-white mt-6 px-6 py-2 
+              rounded-full capitalize" target="_blank"  rel="noreferrer">Visit</a>
           </div>
         </div>
       </div>
