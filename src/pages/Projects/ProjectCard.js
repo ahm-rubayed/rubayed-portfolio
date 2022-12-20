@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
-  const { img, project_name, technologies } = project;
+  const { _id, img, project_name, technologies } = project;
   console.log(project)
 
   return (
@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
         <div className="card-body">
           <h2 className="card-title text-center block">{project_name}</h2>
           <div className="card-actions justify-end">
-            <Link to="/projectDetails"
+            <Link to={`/projects/${_id}`}
               className="btn linear-btn border-0 text-white font-normal mt-6 
               rounded-full capitalize btn-md">
               Details

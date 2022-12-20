@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import ProjectDetails from "../pages/ProjectDetails/ProjectDetails";
-import ProjectCard from "../pages/Projects/ProjectCard";
 
 const router = createBrowserRouter([
     {
@@ -9,8 +8,10 @@ const router = createBrowserRouter([
         element: <Main/>
     },
     {
-        path: "/projectDetails",
-        element: <ProjectDetails/>
+        path: "/projects/:id",
+        element: <ProjectDetails/>,
+        loader: ({params}) => fetch(`http://localhost:5000/projects/${params.id}`)
+        
     }
 
 ])
