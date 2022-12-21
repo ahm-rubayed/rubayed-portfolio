@@ -7,9 +7,9 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div>
-      <div className="card w-96 h-96 bg-base-100 shadow-xl justify-self-center ">
+      <div className="card w-96 h-96 bg-base-100 shadow-xl justify-self-center">
         <figure>
-          <img src={img} alt="Shoes" className="cursor-pointer " />
+          <img src={img} alt="projects" className="cursor-pointer " />
         </figure>
         <div className="card-body">
           <h2 className="card-title text-center block mb-4">{project_name}</h2>

@@ -11,7 +11,7 @@ const ProjectDetails = () => {
   return (
     <div>
       <Header />
-      <div className="container my-32 px-16">
+      <div className="container my-32 px-6 lg:px-16">
         <h3 className="text-xl">{title}</h3>
         <p className="mt-12">
           <h3 className="text-2xl">Application Features</h3>

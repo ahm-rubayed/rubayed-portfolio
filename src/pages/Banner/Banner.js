@@ -29,7 +29,7 @@ const Banner = () => {
                 }}
               />
             </h1>
-            <p class="text-gray-500 max-w-2xl mx-auto lg:mr-12 text-md md:text-lg">
+            <p class="text-gray-500 max-w-2xl mx-auto lg:mr-12 text-xs leading-6 md:text-lg">
               This planet is wider and more widespread than I am, but I only
               have one expertise to offer. Most of my life has been spent
               working as a web developer. I am the developer of your dream, who
