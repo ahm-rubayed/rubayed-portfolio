@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import person from "../../assets/person2.jpg";
 import "./About.css";
 
 const About = () => {
@@ -21,7 +20,7 @@ const About = () => {
                 className="w-3/4 rounded-full ring ring-secondary ring-offset-base-100 
               ring-offset-2"
               >
-                <img src={person} alt="myPhoto" />
+                <img src="https://i.ibb.co/VwsJVcZ/person2.jpg" alt="myPhoto" />
               </div>
             </div>
           </div>
@@ -37,7 +36,7 @@ const About = () => {
             <h3 className="text-lg lg:text-xl font-serif my-6 uppercase">
               Why You hire me?
             </h3>
-            <p className="text-dark">
+            <p className="text-dark text-xl">
               <span className="font-bold">Hi I'm Rubayed Ahmed.</span> A
               passionate web developer from Bangladesh. I worked various
               projects with modern technologies using javascript, reactjs,

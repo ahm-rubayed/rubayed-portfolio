@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import person from "../../assets/personal.JPG";
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import ScrollTrigger from "react-scroll-trigger/types";
+import ScrollTrigger from "react-scroll-trigger";
 
 const Banner = () => {
   const [countOn, setCountOn] = useState(false);
@@ -36,7 +35,7 @@ const Banner = () => {
               )}
             </ScrollTrigger>
           </h1>
-          <p class="text-gray-500 max-w-2xl mx-auto lg:mr-12">
+          <p class="text-gray-500 max-w-2xl mx-auto lg:mr-12 text-xl">
             This planet is wider and more widespread than I am, but I only have
             one expertise to offer. Most of my life has been spent working as a
             web developer. I am the developer of your dream, who will enhance
@@ -62,7 +61,7 @@ const Banner = () => {
         >
           <div className="avatar">
             <div className="w-full rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
-              <img src={person} alt="myPhoto" />
+              <img src="https://i.ibb.co/DMKd54L/personal.jpg" alt="myPhoto" />
             </div>
           </div>
         </div>
