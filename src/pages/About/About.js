@@ -37,7 +37,7 @@ const About = () => {
             <h3 className="text-lg lg:text-xl font-serif my-6 uppercase">
               Why You hire me?
             </h3>
-            <p className="text-dark text-xs leading-6 md:text-lg">
+            <p className="text-dark">
               <span className="font-bold">Hi I'm Rubayed Ahmed.</span> A
               passionate web developer from Bangladesh. I worked various
               projects with modern technologies using javascript, reactjs,

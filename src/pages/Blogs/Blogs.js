@@ -10,7 +10,6 @@ const Blogs = () => {
         Blogs
       </h3>
       <div className="mt-12 text-center">
-        {/* <h3 className="text-xl md:text-2xl text-secondary uppercase font-bold">Coming Soon</h3> */}
         <h3 className="text-xl md:text-2xl text-secondary uppercase font-bold">
           <ScrollTrigger
             onEnter={() => setCountOn(true)}
